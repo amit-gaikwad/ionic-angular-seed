@@ -1,0 +1,8 @@
+<div>
+ Employee Details 
+ <div *ngFor="let item of employees" [style.color]="item.color">
+    Id : {{item.id}}
+    DOB : {{item.year}}
+    Name : {{item.name}}
+  </div>
+</div>
